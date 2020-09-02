@@ -11,9 +11,7 @@ const schema = buildSchema(`
     }
     
     type Mutattion {
-        createFriend(input: FriendInput): Friend{
-
-        }
+        createFriend(input: FriendInput): Friend
     }
 
     input FriendInput {
