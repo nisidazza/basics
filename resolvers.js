@@ -1,9 +1,10 @@
 //use this class to initialize a new friend in our database
 class Friend {
-	constructor(id, { firstName, lastName, gender, language, email }) {
+	constructor(id, { firstName, lastName, age, gender, language, email }) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.age = age;
 		this.gender = gender;
 		this.language = language;
 		this.email = email;
