@@ -10,7 +10,7 @@ const schema = buildSchema(`
         email: String
     }
     
-    type Mutattion {
+    type Mutation {
         createFriend(input: FriendInput): Friend
     }
 
