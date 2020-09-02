@@ -17,7 +17,7 @@ const schema = buildSchema(`
     }
 
     input FriendInput {
-        d: ID,
+        id: ID,
         firstName: String!,
         lastName: String,
         gender: String,
