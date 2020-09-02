@@ -16,6 +16,15 @@ const schema = buildSchema(`
         }
     }
 
+    input FriendInput {
+        d: ID,
+        firstName: String!,
+        lastName: String,
+        gender: String,
+        language: String,
+        email: String
+    }
+
     type Query {
         friend: Friend
     }
